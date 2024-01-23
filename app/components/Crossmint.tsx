@@ -28,7 +28,6 @@ const Crossmint: React.FC = () => {
               totalPrice: "0.001",
               _quantity: "1",
             }}
-            experimental={{ useCardWalletEmail: true }}
             onEvent={(event) => {
               switch (event.type) {
                 case "payment:process.succeeded":
