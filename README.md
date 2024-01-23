@@ -1,4 +1,5 @@
 This is a Crossmint demo project that you can build using following the quickstart guide here: https://docs.crossmint.com/nft-checkout/embedded/quickstart
+
 Built with [Next.js](https://nextjs.org/) and bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
