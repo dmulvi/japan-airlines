@@ -1,10 +1,11 @@
-This is a Crossmint demo project that you can build using following the quickstart guide here: https://docs.crossmint.com/nft-checkout/embedded/quickstart
+This is a Crossmint demo project that you can build using following the quickstart guide:
+https://docs.crossmint.com/nft-checkout/embedded/quickstart
 
 Built with [Next.js](https://nextjs.org/) and bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-To skip the walkthrough and get this app running immediately you can clone the repo and run locally. If you want to build it step by step (< 10 min), start with the [quickstart guide](https://docs.crossmint.com/nft-checkout/embedded/quickstart) instead.
+To skip the walkthrough and get this app running immediately you can clone the repo and run locally. If you want to build it step by step (< 10 min), follow the [quickstart guide](https://docs.crossmint.com/nft-checkout/embedded/quickstart) instead.
 
 ```bash
 # copy the repo to your local machine
@@ -15,7 +16,24 @@ cd crossmint-embedded-demo
 
 # install dependencies / yarn or npm obviously work too xD
 pnpm install
+```
 
+You'll also need to create an `.env.local` file, which you can do by by copying `env.sample` to `.env.local` and adding the values from your Crossmint staging or production collection.
+
+You can also use the `projectId` and `collectionId` values here to test things out right away.
+
+> [!NOTE]  
+> The Crossmint `projectId` and `collectionId` values are **not** sensitive and can be exposed.
+
+```shell
+NEXT_PUBLIC_CROSSMINT_PROJECT_ID="e56a55e2-d4b1-4701-8709-2af6a73d9bb5"
+NEXT_PUBLIC_CROSSMINT_COLLECTION_ID="3b70aac7-5205-4603-a4d4-fa347460d903"
+NEXT_PUBLIC_CROSSMINT_ENVIRONMENT="staging"
+```
+
+Once you have the environment file setup you can run the app locally to test it out.
+
+```bash
 # run the app locally and open in your browser
 pnpm dev
 ```
