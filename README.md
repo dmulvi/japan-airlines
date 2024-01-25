@@ -26,9 +26,9 @@ You can also use the `projectId` and `collectionId` values here to test things o
 > The Crossmint `projectId` and `collectionId` values are **not** sensitive and can be exposed.
 
 ```shell
-NEXT_PUBLIC_CROSSMINT_PROJECT_ID="e56a55e2-d4b1-4701-8709-2af6a73d9bb5"
-NEXT_PUBLIC_CROSSMINT_COLLECTION_ID="3b70aac7-5205-4603-a4d4-fa347460d903"
-NEXT_PUBLIC_CROSSMINT_ENVIRONMENT="staging"
+NEXT_PUBLIC_PROJECT_ID="e56a55e2-d4b1-4701-8709-2af6a73d9bb5"
+NEXT_PUBLIC_COLLECTION_ID="3b70aac7-5205-4603-a4d4-fa347460d903"
+NEXT_PUBLIC_ENVIRONMENT="staging"
 ```
 
 Once you have the environment file setup you can run the app locally to test it out.

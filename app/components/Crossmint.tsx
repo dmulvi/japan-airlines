@@ -7,10 +7,9 @@ import Minting from "./Minting";
 const Crossmint: React.FC = () => {
   const [orderIdentifier, setOrderIdentifier] = useState<string | null>(null);
 
-  const projectId = process.env.NEXT_PUBLIC_CROSSMINT_PROJECT_ID as string;
-  const collectionId = process.env
-    .NEXT_PUBLIC_CROSSMINT_COLLECTION_ID as string;
-  const environment = process.env.NEXT_PUBLIC_CROSSMINT_ENVIRONMENT as string;
+  const projectId = process.env.NEXT_PUBLIC_PROJECT_ID as string;
+  const collectionId = process.env.NEXT_PUBLIC_COLLECTION_ID as string;
+  const environment = process.env.NEXT_PUBLIC_ENVIRONMENT as string;
 
   return (
     <>
