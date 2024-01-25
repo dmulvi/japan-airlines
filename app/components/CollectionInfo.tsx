@@ -11,6 +11,7 @@ const CollectionInfo: React.FC = () => {
           height={500}
           className="rounded-lg shrink"
           alt="nft collection image"
+          priority={true}
         />
         <div className="justify-between p-5 my-6 space-y-3 rounded-lg border">
           <p className="text-sm text-black font-bold">
