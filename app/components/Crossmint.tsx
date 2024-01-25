@@ -25,7 +25,6 @@ const Crossmint: React.FC = () => {
             mintConfig={{
               type: "erc-721",
               totalPrice: "0.001",
-              _quantity: "1",
             }}
             onEvent={(event) => {
               switch (event.type) {
