@@ -27,7 +27,7 @@ You can also use the `projectId` and `collectionId` values here to test things o
 
 ```shell
 NEXT_PUBLIC_PROJECT_ID="42c43e55-f92d-4b25-bc99-d8309b6e1f38"
-NEXT_PUBLIC_COLLECTION_ID="f992e52c-afaa-46d5-9fba-214754383d0c"
+NEXT_PUBLIC_COLLECTION_ID="1a3f984d-3001-492f-9165-c3faedeb98cf"
 NEXT_PUBLIC_ENVIRONMENT="staging"
 ```
 
