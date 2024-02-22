@@ -6,7 +6,7 @@ const CollectionInfo: React.FC = () => {
     <>
       <div className="sm:col-span-2 flex flex-col">
         <Image
-          src="/ninjanaut.png"
+          src="/jal-logo.jpg"
           width={500}
           height={500}
           className="rounded-lg shrink"

@@ -23,8 +23,12 @@ const Crossmint: React.FC = () => {
               show: true,
             }}
             mintConfig={{
-              type: "erc-721",
-              totalPrice: "0.001",
+              totalPrice: "0.01",
+              _values: ["0"],
+              _recipients: ["0x612090E9f03582eE20aB5466b87cd5f738044Ffe"],
+              _referrers: ["0x0000000000000000000000000000000000000000"],
+              _keyManagers: ["0x612090E9f03582eE20aB5466b87cd5f738044Ffe"],
+              _data: ["0x612090E9f03582eE20aB5466b87cd5f738044Ffe"],
             }}
             onEvent={(event) => {
               switch (event.type) {
